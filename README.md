@@ -29,9 +29,9 @@ Scores were calculated from EMA gaps and momentum, then mapped to trading action
 
 **ML-based strategy**  
 Logistic regression models were trained for each ETF using 70% of the data for training and 30% for testing. Features included daily return, EMA gap, and volatility. The model outputs—the probability of a next-day increase—were mapped to continuous scores with  
-\[
+$$
 \text{score} = (p_{up} - 0.5) \times 200
-\]  
+$$
 and the same cutoffs were applied to determine Buy/Hold/Sell actions.  
 
 ---
@@ -77,6 +77,6 @@ AUC scores for individual ETFs were between 0.48 and 0.53, indicating near-rando
 
 ## Author
 **Chenyi Zhao** – Northwestern University  
-Course: *MSDS 451 - Financial Engineering *  
+Course: *MSDS 451 - Financial Engineering*  
 Date: Fall 2025
 
