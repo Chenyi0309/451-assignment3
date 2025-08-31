@@ -35,18 +35,15 @@ Logistic regression models were trained for each ETF using 70% of the data for t
 and the same cutoffs were applied to determine Buy/Hold/Sell actions.  
 
 ---
-
 ## Implementation
 - **Languages/Libraries**: Python, pandas, numpy, scikit-learn, matplotlib  
-- **Main files**:  
-  - `strategies.py` – scoring functions and trading logic  
-  - `run_backtest.py` – backtesting pipeline and visualizations  
+- **Main file**:  
+  - `trading_assignment.ipynb` – includes data preparation, strategy implementation, backtesting, and visualization  
+- **Report**:  
   - `Assignment_Report_MultiLevelTrading.pdf` – final written report  
 
-Run the backtest with:
-```bash
-python run_backtest.py
-```
+To reproduce results, open the notebook and run all cells in order.
+
 ---
 
 ## Results
