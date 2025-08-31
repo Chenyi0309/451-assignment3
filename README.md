@@ -29,9 +29,7 @@ Scores were calculated from EMA gaps and momentum, then mapped to trading action
 
 **ML-based strategy**  
 Logistic regression models were trained for each ETF using 70% of the data for training and 30% for testing. Features included daily return, EMA gap, and volatility. The model outputs—the probability of a next-day increase—were mapped to continuous scores with  
-$$
-\text{score} = (p_{up} - 0.5) \times 200
-$$
+`score = (p_up - 0.5) * 200`
 and the same cutoffs were applied to determine Buy/Hold/Sell actions.  
 
 ---
