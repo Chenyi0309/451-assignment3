@@ -78,3 +78,7 @@ AUC scores for individual ETFs were between 0.48 and 0.53, indicating near-rando
 Course: *MSDS 451 - Financial Engineering*  
 Date: Fall 2025
 
+---
+## Acknowledgment on AI Assistance
+Parts of this assignment, including code structuring and report drafting, were assisted by the use of AI tools (ChatGPT). All outputs were reviewed, modified, and validated by the author to ensure correctness and alignment with course requirements.
+
